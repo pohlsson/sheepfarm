@@ -1,0 +1,38 @@
+@import 'colors.scss';
+
+.section {
+  padding: 2em;
+  border: 0.1em solid $border;
+  .section-depth {
+    &__0 {
+      background-color: $depth-0;
+    }
+    &__1 {
+      background-color: $depth-1;
+    }
+    &__2 {
+      background-color: $depth-2;
+    }
+    &__3 {
+      background-color: $depth-2;
+    }
+  }
+
+    .section-padding-less {
+      &__left: {
+        padding-left: 0;
+      }
+      &__right: {
+        padding-right: 0;
+      }
+      &__top: {
+        padding-top: 0;
+      }
+      &__bottom: {
+        padding-bottom: 0;
+      }
+      &__all {
+        padding: 0;
+      }
+    }
+}
